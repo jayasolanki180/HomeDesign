@@ -1,0 +1,141 @@
+* {
+  
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+head2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-size: cover 10%;
+  background-position: center;
+
+}
+.navbar{
+  width: 85%;
+  margin: auto;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+}
+
+.navbar a:hover{
+  color: blue;
+  border-bottom: 3px solid rgb(4, 2, 2);
+
+}
+
+
+.logo{
+  width: 120px;
+  cursor: pointer;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+}
+.navbar ul li a{
+text-decoration: none;
+color: rgb(1, 1, 20);
+text-transform: uppercase;
+}
+.navbar ul li::after a{
+  content: '';
+  height: 4px;
+  width: 100%;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  
+}
+
+.gallery{
+  float: left;
+  margin:1px;
+  padding-left: 0.5px;
+}
+
+.gallery img {
+  height: 200px;
+  width: 200px;
+  padding-left: 1px;
+}
+
+.mainHeading{
+  /* color:linear-gradient(rgb(2, 2, 75),rgb(2, 2, 116),rgb(4, 4, 179)); */
+  color: #1e0d7d;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  /* margin:10%; */
+  padding-top:10% ;
+  font-size: 60px;
+}
+
+h2{
+  font-style: inherit;
+  margin-top: 10%;
+}
+
+.red{
+  /* color: rgb(218, 63, 235); */
+  color: #1e0d7d;
+}
+.button{
+  text-align: center;
+}
+.FirstWord{
+  font-size: 90px;
+  font-family: 'Lobster', cursive;
+}
+.jbottom{
+  font-family: 'Lobster', cursive;
+  display: block;
+}
+.jbutton{
+  padding-top: 5%;
+}
+/* .jb{
+  size: 80%;
+  font-size: 20px;
+} */
+.bedroomSection{
+  margin: 0;
+  padding: 0;
+}
+
+.img{
+  padding-left: 2px;
+}
+.imagesection{
+  height: 200px;
+  width: 200px;
+}
+.imgsection{
+  margin-left: 3%;;
+}
+
+.clear{
+  clear: left;
+}
+
+
+
+.imagesection:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
